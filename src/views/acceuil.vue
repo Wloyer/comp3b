@@ -1,18 +1,20 @@
 <template>
-
+  <div class="fond">
+    <carousel/>
+    <cards/>
+  </div>
 </template>
 
 <script>
+import cards from '@/components/cards.vue'
 import carousel from '@/components/carousel.vue'
-import cards from '@components/cards.vue'
 import axios from 'axios'
 
 export default {
   name: 'acceuil',
   components: {
-
-    Carousel,
-    cards,
+    carousel,
+    cards
   },
   
   data(){

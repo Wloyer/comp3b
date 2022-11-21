@@ -2,9 +2,9 @@
     <header class="container-fluid nav-custom">
      <div class="container">
        <!-- desktop menu-->
-       <img src="/Compétence 3.a/img/saccharoselogo1436.png" alt="logo">
+       <img src="../assets/saccharoselogo1436.png" alt="logo">
           <nav class="nav-interieur hidden-xs">
-              <a class="ancrage" href="/index.html">acceuil</a>
+              <a class="ancrage" href="/acceuil.vue">acceuil</a>
               <a class="ancrage" href="/boutique.html">boutique</a>
               <a class="ancrage"  href="">panier</a>
               <a class="ancrage" href="">contact</a>
@@ -16,7 +16,7 @@
       <div class="hidden-sm hidden-md hidden-lg">
        <nav class="navbar navbar-dark  fixed-top customnav">
          <div class="container-fluid">
-           <a class="navbar-brand" href="#"><img src="/Compétence 3.a/img/saccharoselogo1436.png" alt="logo"></a>
+           <a class="navbar-brand" href="#"><img src="../assets/saccharoselogo1436.png" alt="logo"></a>
            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
              <span class="navbar-toggler-icon bouton"></span>
            </button>

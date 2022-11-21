@@ -14,7 +14,7 @@
  */
 
 
- body, html{
+body, html{
     margin: 0px;
     padding: 0px;
     width: auto;
@@ -80,7 +80,7 @@ h4{
 }
 .cadre{
   background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,0.5102415966386555) 45%, rgba(255,255,255,1) 85%);
+  background: linear-gradient(0deg, rgba(255,255,255,0.5102415966386555) 45%, rgba(255,255,255,1) 85%);
   box-shadow: 5px 5px 5px;
   border-radius: 5px;
 }
@@ -104,7 +104,7 @@ footer{
   margin-right:-100%;
   height:auto;
   background: rgb(2,51,115);
- background: linear-gradient(0deg, rgba(2,51,115,1) 45%, rgba(3,74,166,1) 85%);
+  background: linear-gradient(0deg, rgba(2,51,115,1) 45%, rgba(3,74,166,1) 85%);
   color: #F25C05;
   font-family: alex-brush, sans-serif;
   font-weight: 400;
