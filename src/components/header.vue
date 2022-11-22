@@ -4,8 +4,8 @@
        <!-- desktop menu-->
        <img src="../assets/saccharoselogo1436.png" alt="logo">
           <nav class="nav-interieur hidden-xs">
-              <a class="ancrage" href="/acceuil.vue">acceuil</a>
-              <a class="ancrage" href="/boutique.html">boutique</a>
+              <a ><router-link class="ancrage" to="/">Accueil</router-link></a>
+              <a ><router-link class="ancrage" to="/Boutique">Boutique</router-link></a>
               <a class="ancrage"  href="">panier</a>
               <a class="ancrage" href="">contact</a>
               <button type="button" class="btn bouton1">Inscription</button>
@@ -28,10 +28,10 @@
              <div class="offcanvas-body titrenav">
                <ul class="navbar-nav justify-content-end   flex-grow-1 pe-3">
                  <li class="nav-item">
-                   <a class="text-nav"  href="/index.html">Acceuil</a>
+                   <a class="text-nav"> <router-link class="nav-link" to="/">Accueil</router-link></a>
                  </li>
                  <li class="nav-item">
-                   <a class="text-nav"  href="/boutique.html">Pâtisserie</a>
+                   <a class="text-nav"><router-link class="nav-link" to="/">Boutique</router-link></a>
                  </li>
                  <li class="nav-item">
                    <a class="text-nav"  href="#">Panier</a>

@@ -11,7 +11,7 @@ import carousel from '@/components/carousel.vue'
 import axios from 'axios'
 
 export default {
-  name: 'acceuil',
+  name: 'Acceuil',
   components: {
     carousel,
     cards

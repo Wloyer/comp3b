@@ -7,7 +7,7 @@ import Produits from '@/components/Produits.vue'
 import axios from 'axios'
 
 export default {
-  name: 'boutique',
+  name: 'Boutique',
   components: {
     Produits
   },
