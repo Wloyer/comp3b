@@ -8,7 +8,7 @@
 <script>
 import cards from '@/components/cards.vue'
 import carousel from '@/components/carousel.vue'
-import axios from 'axios'
+
 
 export default {
   name: 'Acceuil',
@@ -24,15 +24,6 @@ export default {
             ajout:0
         }
   },
-  created() {
-    axios.get(`http://localhost:8080/products.json`)
-    .then(response => {
-      // JSON responses are automatically parsed.
-      this.products = response.data.products
-    })
-    .catch(e => {
-      this.errors.push(e)
-    })
-  }  
+ 
 }
 </script>

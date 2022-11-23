@@ -9,75 +9,67 @@
     "products":  [ 
         { 
             "id":1,
-            "image":"../assets/2000_feuilles.jpg",
-            "image1":"img/2000_feuilles1.jpg",
+            "image":"2000_feuilles.jpg",
+            "image1":"2000_feuilles1.jpg",
             "name": "mille feuille",
             "description": "Praliné aux noisettes du Piémont",
             "quantity": 6
         }, 
         { 
             "id":2,
-            "image":"img/carre_blanc.jpg",
-            "image1":"img/carre_blanc1.jpg",
+            "image":"carre_blanc.jpg",
+            "image1":"carre_blanc1.jpg",
             "name": "carré blanc",
             "description": "Amandes, marmelade de poires et d'airelles ",
             "quantity": 6
         },
         { 
             "id":3,
-            "image":"img/tarte-choc.jpg",
-            "image1":"img/tarte-choc1.jpg",
+            "image":"tarte-choc.jpg",
+            "image1":"tarte-choc1.jpg",
             "name": "tartelette chocolat",
             "description": "Chocolat au lait, praliné feuiletté",
             "quantity": 6
         },
         { 
             "id":4,
-            "image":"img/macaron-framboise.jpg",
-            "image1":"img/macaron-framboise1.jpg",
+            "image":"macaron-framboise.jpg",
+            "image1":"macaron-framboise1.jpg",
             "name": "Macaron Framboise",
             "description": "Rose, framboise & letchi",
             "quantity": 6
         },
         { 
             "id":5,
-            "image":"img/2000_feuilles2.jpg",
-            "image1":"img/2000_feuilles3.jpg",
+            "image":"2000_feuilles2.jpg",
+            "image1":"2000_feuilles3.jpg",
             "name": "mille feuille",
             "description": "Praliné aux noisettes du Piémont",
             "quantity": 6
         },
         { 
             "id":6,
-            "image":"img/carre_blanc2.jpg",
-            "image1":"img/carre_blanc4.jpg",
+            "image":"carre_blanc2.jpg",
+            "image1":"carre_blanc4.jpg",
             "name": "carré blanc",
             "description": "Amandes, marmelade de poires et d'airelles ",
             "quantity": 6
         },
         { 
             "id":7,
-            "image":"img/tarte-choc2.jpg",
-            "image1":"img/tarte-choc3.jpg",
+            "image":"tarte-choc2.jpg",
+            "image1":"tarte-choc3.jpg",
             "name": "tartelette chocolat",
             "description": "Chocolat au lait, praliné feuiletté",
             "quantity": 6
         },
         { 
             "id":8,
-            "image":"img/macaron-framboise2.jpg",
-            "image1":"img/macaron-framboise3.jpg",
+            "image":"macaron-framboise2.jpg",
+            "image1":"macaron-framboise3.jpg",
             "name": "Macaron Framboise",
             "description": "Rose, framboise & letchi",
             "quantity": 6
-        } ,
-        { 
-            "id":9,
-            "image":"img/macaron-framboise2.jpg",
-            "image1":"img/macaron-framboise3.jpg",
-            "name": "Macaron Framboise",
-            "description": "Rose, framboise & letchi",
-            "quantity": 6
-        }             
+        }         
     ]
 }

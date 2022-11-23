@@ -1,15 +1,15 @@
 <template>
-    <header class="container-fluid nav-custom">
+    <div class="container-fluid nav-custom">
      <div class="container">
        <!-- desktop menu-->
        <img src="../assets/saccharoselogo1436.png" alt="logo">
           <nav class="nav-interieur hidden-xs">
-              <a ><router-link class="ancrage" to="/">Accueil</router-link></a>
-              <a ><router-link class="ancrage" to="/Boutique">Boutique</router-link></a>
-              <a class="ancrage"  href="">panier</a>
-              <a class="ancrage" href="">contact</a>
-              <button type="button" class="btn bouton1">Inscription</button>
-              <button type="button" class="btn bouton1">Connexion</button>
+              <a ><router-link class="ancrage" to="/">Accueil </router-link></a>
+              <a ><router-link class="ancrage" to="/Boutique">Boutique </router-link></a>
+              <a class="ancrage"  href="">panier </a>
+              <a class="ancrage" href="">contact </a>
+              <button type="button" class="btn bouton1"> Inscription </button>
+              <button type="button" class="btn bouton1">Connexion </button>
           </nav>
       </div>
       <!-- Hamburger menu -->
@@ -51,12 +51,41 @@
          </div>
        </nav>
     </div>
-    </header>
+  </div>
   </template>
+
+<style>
+.nav-interieur{
+    float: right;
+    word-spacing: 10px;
+}
+.nav-custom{
+    font-size: 30px;
+    height: 80px;
+    line-height: 70px; 
+    background: linear-gradient(180deg, rgba(2,51,115,1) 65%, rgba(3,74,166,1) 86%);
+    border-radius: 0px 0px 5px 5px;
+}
+.customnav{
+  background: linear-gradient(180deg, rgba(2,51,115,1) 65%, rgba(3,74,166,1) 86%);
+  border-radius: 0px 0px 5px 5px;
+}
+.ancrage:hover{
+    text-decoration: none;
+    color:  #A60321 ;
+}
+.ancrage{
+  font-family: alex-brush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #F25C05;
+}
+</style>
 
 <script>
 export default {
-  name: 'header',
+  name: 'Header',
   props: {
     id: Number,
     titre:String,

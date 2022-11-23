@@ -1,18 +1,31 @@
 <template>
-    <Produits/>
+  <h3 class="h3-custom">Individuel</h3>
+  <div class="container" > 
+    <div class="row"> 
+    <Products v-for="product in products"  :id="product.id"
+               :description="product.description"   :name="product.name"
+               :image="product.image"  :image1="product.image1" />        
+    </div>
+  </div>
 </template>
 
+<!-- <style>
+
+</style> -->
+
 <script>
-import Produits from '@/components/Produits.vue'
+import Products from '@/components/Products.vue'
 import axios from 'axios'
+// import { numberLiteralTypeAnnotation } from '@babel/types'
 
 export default {
-  name: 'Boutique',
-  components: {
-    Produits
+  name: 'products',
+  components:{
+    Products
   },
-  
-  data(){
+  props:{
+  },
+data(){
         return {
             products:[],
             errors: [],
@@ -28,6 +41,6 @@ export default {
     .catch(e => {
       this.errors.push(e)
     })
-  }  
+  }
 }
 </script>

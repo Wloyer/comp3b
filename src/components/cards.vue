@@ -34,6 +34,15 @@
     
 </template>
 
+<style>
+.card{
+  box-shadow: 5px 5px 5px;
+}
+.espaceh3{
+  height: 50px;
+}
+</style>
+
 <script>
 export default {
   name: 'cards',
@@ -43,4 +52,5 @@ export default {
     image:String,
   }
 }
+
 </script>

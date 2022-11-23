@@ -1,5 +1,4 @@
 <template>
-
 <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-dark carouselCustom" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -22,6 +21,20 @@
           </button>
         </div>
 </template>
+
+<style>
+.carousel-inner{
+  width:90%;
+  height:80%;
+}
+.carouselCustom {
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px;
+  width: auto;
+  height: auto;
+}
+</style>
 
 <script>
 export default {
